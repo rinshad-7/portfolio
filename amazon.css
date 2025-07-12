@@ -1,0 +1,71 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f3f3f3;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-container {
+background-color: #fff;
+padding: 20px;
+border: 1px solid lightgrey;
+border-radius: 5px;
+width: 350px;
+text-align: center;
+}
+
+.logo {
+height: 31px;
+margin-bottom: 20px;
+}
+
+.login-form h2 {
+font-size: 24px;
+margin-bottom: 15px;
+}
+
+.login-form label {
+display: block;
+text-align: left;
+margin-bottom: 5px;
+}
+
+.login-form input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid lightgrey;
+border-radius: 3px;
+}
+
+.btn {
+width: 100%;
+padding: 10px;
+background-color: #f0c14b;
+border: 1px solid #a88734;
+border-radius: 3px;
+cursor: pointer;
+}
+
+btn:hover {
+background-color: #ddb347;
+}
+
+.help-link {
+color: #007185;
+}
+
+.footer {
+margin-top: 20px;
+}
+
+.btn-secondary {
+width: 100%;
+padding: 10px;
+background-color: #e7e9ec;
+border-radius: 3px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT Timeline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    .timeline {
+      position: relative;
+      margin: 0 auto;
+      padding: 20px 0;
+      width: 90%;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #aaa;
+    }
+    .entry {
+      position: relative;
+      width: 45%;
+      padding: 10px 20px;
+      background: white;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .entry:nth-child(odd) {
+      left: 0;
+    }
+    .entry:nth-child(even) {
+      left: 55%;
+    }
+    .entry::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      width: 0; height: 0;
+      border: 10px solid transparent;
+    }
+    .entry:nth-child(odd)::after {
+      right: -20px;
+      border-left: 10px solid white;
+    }
+    .entry:nth-child(even)::after {
+      left: -20px;
+      border-right: 10px solid white;
+    }
+    .date {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChatGPT & GPT Models Timeline</h1>
+  <div class="timeline">
+    <div class="entry">
+      <div class="date">June 16, 2016</div>
+      OpenAI publishes research on generative models :contentReference[oaicite:2]{index=2}.
+    </div>
+    <div class="entry">
+      <div class="date">June 11, 2018</div>
+      GPT‑1 released :contentReference[oaicite:3]{index=3}.
+    </div>
+    <div class="entry">
+      <div class="date">February 14, 2019</div>
+      GPT‑2 released :contentReference[oaicite:4]{index=4}.
+    </div>
+    <div class="entry">
+      <div class="date">June 11, 2020</div>
+      GPT‑3 launched :contentReference[oaicite:5]{index=5}.
+    </div>
+    <div class="entry">
+      <div class="date">January 27, 2022</div>
+      InstructGPT (GPT‑3.5 family) released :contentReference[oaicite:6]{index=6}.
+    </div>
+    <div class="entry">
+      <div class="date">November 30, 2022</div>
+      ChatGPT (GPT‑3.5) debut as research preview :contentReference[oaicite:7]{index=7}.
+    </div>
+    <div class="entry">
+      <div class="date">February 1, 2023</div>
+      ChatGPT Plus subscription launched :contentReference[oaicite:8]{index=8}.
+    </div>
+    <div class="entry">
+      <div class="date">March 1, 2023</div>
+      ChatGPT API goes live :contentReference[oaicite:9]{index=9}.
+    </div>
+    <div class="entry">
+      <div class="date">March 14, 2023</div>
+      GPT‑4 integrated into ChatGPT :contentReference[oaicite:10]{index=10}.
+    </div>
+    <div class="entry">
+      <div class="date">July 21–25, 2023</div>
+      Official iOS (May) & Android (July) ChatGPT apps released :contentReference[oaicite:11]{index=11}.
+    </div>
+    <div class="entry">
+      <div class="date">November 2023</div>
+      GPT‑4 Turbo with 128K context window released :contentReference[oaicite:12]{index=12}.
+    </div>
+    <div class="entry">
+      <div class="date">January 10, 2024</div>
+      GPT Store & ChatGPT Team launched :contentReference[oaicite:13]{index=13}.
+    </div>
+    <div class="entry">
+      <div class="date">May 13, 2024</div>
+      GPT‑4o (“Omni”) released :contentReference[oaicite:14]{index=14}.
+    </div>
+    <div class="entry">
+      <div class="date">July 18, 2024</div>
+      GPT‑4o mini launched :contentReference[oaicite:15]{index=15}.
+    </div>
+    <div class="entry">
+      <div class="date">February 27, 2025</div>
+      GPT‑4.5 “Orion” released :contentReference[oaicite:16]{index=16}.
+    </div>
+    <div class="entry">
+      <div class="date">April 14, 2025</div>
+      GPT‑4.1 (mini & nano) introduced :contentReference[oaicite:17]{index=17}.
+    </div>
+  </div>
+</body>
+</html>
